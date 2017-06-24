@@ -1,0 +1,98 @@
+/*Web Fonts include: 'Lato'  'Ubuntu'  'Gloria Hallelujah'  'Indie Flower'  'Pacifico'  'Prata'
+ */
+@charset "utf-8";
+
+body{
+    margin: 0;
+	padding: 0;
+    background-color: azure;
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    }
+
+h1{
+    font-size: 50px;
+    
+   }
+
+h3{
+    font-size: 25px;
+    color: darkcyan
+    }
+
+header{
+    background-color: #c7d8a3;
+    color: darkgreen;
+    padding-top: 9px;
+    padding-bottom: 9px;
+        margin-top: -20px;
+    }
+
+section.buttons {
+    background-color: rgba(247, 248, 206, 0.89);
+    height: 40px;
+    padding-top: 10px;
+        
+    }
+#button{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+section.content {
+    padding: 10px 100px 0px 100px;  /* top=10px right=100px bottom=0px left=100px */
+    line-height: 1.5; 
+    font-size: 120%;
+    }
+
+section.photo {
+    background-image: url(_images/image_2.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.5;
+    }
+
+section.photo h2 {
+    color: ghostwhite;   
+    font-size: 410%;
+    padding-top: 110px;
+    text-shadow: 2px 2px 2px #333333;
+    }
+
+footer {
+    background-color: #c7d8a3;
+    padding: 10px 100px;  /*top/bottom = 10px  right/left=100px */
+    line-height: 1.5; 
+    font-size: 110%;  
+    color: darkgreen;
+    }
+
+hr {
+    width: 150px;
+    border-collapse: collapse;
+    border-bottom: 7px solid  rgba(241, 245, 131, 0.89);
+    border-radius: 5px
+    }
+
+
+
+/* The buttons should be the same size on all three style sheets - just change colors: border, background-color, and font colors */
+
+button {
+    background-color: rgba(247, 248, 206, 0.89);
+    color: black;
+    border: 2px solid #a0ad84;
+    border-radius: 6px;
+    padding: 3px 15px;
+    font-size: 85%;
+    margin-left: 8px;;
+   }
+
+
+button:hover{
+    background-color: #d9edaf;
+    color: black; 
+    box-shadow: 2px 2px 2px #434343;
+    }
+    

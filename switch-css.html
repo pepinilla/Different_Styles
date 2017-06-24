@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link id="pagestyle" rel="stylesheet" type="text/css" href="default-style.css">    
+
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|EB+Garamond|Josefin+Sans:400,600|Poiret+One" rel="stylesheet">
+
+
+ 
+<script>
+function swapStyleSheet(sheet){
+	document.getElementById('pagestyle').setAttribute('href', sheet);
+}
+</script>  
+</head>
+<body>
+    <header>  <h1>Lorem Ipsum</h1> <h3> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... </h3> 
+    </header> 
+    
+    <section class="buttons">
+        <button id=button onclick="swapStyleSheet('dark-style.css')">Button 1 </button>
+        <button id=button onclick="swapStyleSheet('light-style.css')">Button 2</button>
+        <button id=button onclick="swapStyleSheet('default-style.css')">Button 3</button>
+    </section> 
+    
+    <section class="content">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis ante ut enim suscipit euismod. Donec sollicitudin nulla sit amet sem blandit congue. In a sapien et quam laoreet auctor. Aenean vehicula turpis a tincidunt dictum. Nulla a ligula justo. Aliquam tincidunt dui nec odio maximus mollis. </p>
+    </section>
+    
+    <section class="photo">
+        <h2>   Morbi sodales odio tellus, eget accumsan magna pharetra a.</h2>
+    </section>
+    
+    
+    <footer>
+        <p> Morbi sodales odio tellus, eget accumsan magna pharetra a. Quisque dictum sodales ex quis iaculis. Vivamus interdum augue est, sed congue justo finibus non. </p>
+        <hr>
+        <p > Vivamus interdum augue est</p>
+    </footer>  
+    
+ 
+</body>
+</html>

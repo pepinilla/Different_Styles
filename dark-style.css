@@ -1,0 +1,103 @@
+/*Web Fonts include: 'Lato'  'Ubuntu'  'Gloria Hallelujah'  'Indie Flower'  'Pacifico'  'Prata'
+ */
+@charset "utf-8";
+
+body{
+    margin: 0;
+	padding: 0;
+    background-color: #ffead2;
+    font-family: 'Poiret One', cursive;
+    text-align:center;
+    }
+
+h1{
+    font-size: 40px;
+    font-size: 60px;
+   }
+
+h3{
+    font-size: 25px;
+    }
+
+header{
+    background-color: rgb(128, 15, 15);
+    color: ghostwhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+section.buttons {
+    background-color: rgb(230, 157, 73);
+    height: 40px;
+    padding-top: 15px;
+    margin-top: -20px;
+    }
+
+#button{
+   font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+section.content {
+    padding: 10px 100px 0px 100px;  /* top=10px right=100px bottom=0px left=100px */
+    line-height: 1.5; 
+    font-size: 110%;
+    font-weight: bold;
+    }
+
+section.photo {
+    background-image: url(_images/image_3.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.5;
+    }
+
+section.photo h2 {
+    font-family: 'Poiret One', cursive;;
+    color: ghostwhite;   
+    font-size: 400%;
+    padding-top: 110px;
+    text-shadow: 2px 2px 2px #333333;
+    }
+
+footer {
+    background-color: rgb(128, 15, 15);
+    padding: 10px 100px;  /*top/bottom = 10px  right/left=100px */
+    line-height: 1.5; 
+    font-size: 110%;  
+    color: azure
+    }
+
+hr {
+    width: 150px;
+    border-collapse: collapse;
+    border-bottom: 7px solid  rgba(241, 245, 131, 0.89);
+    border-radius: 5px
+    }
+
+
+
+/* The buttons should be the same size on all three style sheets - just change colors: border, background-color, and font colors */
+
+button {
+    background-color: #ffefd9;
+    color: black;
+    border: 2px solid #b94c4c;
+    border-radius: 6px;
+    padding: 3px 15px;
+    font-size: 85%;
+    margin-left: 8px;;
+   }
+
+
+button:hover{
+    background-color: #9a4949;
+    color: white; 
+    box-shadow: 2px 2px 2px #434343;
+    }
+    
+
+
+
+    
